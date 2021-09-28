@@ -18,7 +18,7 @@ int taskFunc(void* arg)
 int main()
 {
 	// 创建线程池
-	ThreadPool pool(8, 16);
+	ThreadPool pool(4, 8);
 	for (int i = 1; i <= 30; ++i)
 	{
 		Sleep(5);
