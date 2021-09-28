@@ -40,6 +40,7 @@ private:
 	bool m_shutdown;// 是不是要销毁线程池, 销毁为1, 不销毁为0
 
 	std::vector<int> m_results;
+
 	int m_result;
 };
 
